@@ -1,0 +1,99 @@
+
+body{
+    background-color: green;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border: 8px solid white;
+    border-radius: 8px;
+}
+.budget{
+    color: hwb(240 93% 4%);
+}
+#input{
+    color: whitesmoke;
+    background-color: rgba(8, 246, 183, 0.378);
+    padding: 10px;
+    margin: 10px;
+    border: 4px solid white;
+    border-radius: 8px;
+    color: aliceblue;
+}
+h2{
+    color: white;
+}
+input{
+    padding: 10px;
+    border: 2px solid hsl(0, 33%, 99%);
+    background-color: rgba(12, 143, 40, 0.535);
+    color: aliceblue;
+    border-radius: 8px;
+    margin: 10px;
+    font-size: 18px;
+}
+table, th, td{
+    border: 3px solid rgb(249, 244, 244);
+    border-collapse: collapse;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+thead{
+    background-color: black;
+    color: aliceblue;
+}
+tr:nth-child(even){
+    color: rgb(6, 19, 3);
+    background-color: rgb(230, 242, 230);
+}
+img{
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    float: right;
+}
+button{
+    cursor: pointer;
+    padding: 10px;
+    border: 4px solid rgb(250, 243, 243);
+    background-color: rgb(8, 160, 46);
+    color: aliceblue;
+    border-radius: 8px;
+    margin: 10px;
+    font-weight: bolder;
+}
+tr:hover{
+    background-color: blue;
+    color: aliceblue;
+}
+select{
+    padding: 10px;
+    border: 2px solid rgb(241, 246, 241);
+    background-color: rgb(41, 137, 15);
+    color: rgb(233, 240, 233);
+    border-radius: 8px;
+    margin: 10px;
+}
+button:hover{
+    background-color: rgb(115, 188, 7);
+    color: azure;
+}
+form{
+    padding: 10px;
+    margin: 10px;
+    border: 3px whitesmoke;
+    border-radius: 10px;
+}
+
+h1{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700px;
+  font-style: normal;
+}
+h2, h3, p{
+        font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 237;
+        font-style: normal;
+    }

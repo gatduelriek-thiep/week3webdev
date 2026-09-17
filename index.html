@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@237&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <img src="budget.webp" alt="budget logo">
+    <h1 class="budget">My Budget Tracker</h1>
+    <h3>This site will track your expenses in one place</h3>
+    <div id="input">
+        <h2>Add expense</h2>
+        <form action="example.php">
+            <label for="expense-name">Expense Name:</label>
+            <input type="text" id="expense-name" placeholder="Type expense name">
+            <label for="expense-amount">Amount:</label>
+            <input type="number" id="expense-amount" placeholder="eg.1234">
+            <select name="category" id="expense-category">
+                <option value="select">Select Category</option>
+                <option value="food">Food</option>
+                <option value="transport">Transport</option>
+                <option value="rent">Rent</option>
+                <option value="entertainment">Entertainment</option>
+                <option value="others">Others</option>
+            
+            </select>
+            <button type="button">Add Expense</button>
+        </form>
+        
+    </div>
+    <section>
+        <h2>Your Expenses</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Amount</th>
+                    <th>Category</th>
+                    <th>Date</th>
+                </tr>
+                
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Rice</td>
+                    <td>Ksh 50.00</td>
+                    <td>Food</td>
+                    <td>2022-12-01</td>
+                </tr>
+                <tr>
+                    <td>House</td>
+                    <td>Ksh 2000.00</td>
+                    <td>Rent</td>
+                    <td>2021-01-08</td>
+                </tr>
+                <tr>
+                    <td>Konami</td>
+                    <td>Ksh 20.00</td>
+                    <td>Entertainment</td>
+                    <td>2025-02-02</td>
+                </tr>
+                <tr>
+                    <td>Sandals</td>
+                    <td>Ksh 600.00</td>
+                    <td>Transport</td>
+                    <td>2026-08-08</td>
+                </tr>
+                <tr>
+                    <td>Music</td>
+                    <td>Ksh 10.00</td>
+                    <td>Entertainment</td>
+                    <td>2025-09-09</td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </section><br>
+    <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/-bqeNE1DOzA?si=m7GRIBM16FOQGBQ8" 
+        title="Budgeting Tips" 
+        frameborder="2" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen>
+    </iframe>
+
+    <summary>
+        <details>
+            <h2>How to use this website</h2>
+            <p>The purpose of this website is to collect the details for 
+            expenses, amount on expenses and how to budget</p>
+        </details>
+        
+    </summary>
+
+</body>
+</html>
